@@ -25,7 +25,7 @@ $(".slider").slick({
 // кнопки
 
 const btnScrolToApp = document.querySelector(".btn_intro");
-const btnScrolToAppSection2 = document.querySelector(".opport_btn");
+const btnScrolToFeedSection = document.querySelector(".opport_btn");
 const sectionApp = document.querySelector(".application");
 const projectLink = document.querySelector(".project_link");
 const sectionFeedback = document.querySelector(".feedback");
@@ -45,8 +45,8 @@ btnScrolToApp.addEventListener("click", function () {
   sectionApp.scrollIntoView({ behavior: "smooth" });
 });
 
-btnScrolToAppSection2.addEventListener("click", function () {
-  sectionApp.scrollIntoView({ behavior: "smooth" });
+btnScrolToFeedSection.addEventListener("click", function () {
+  sectionFeedback.scrollIntoView({ behavior: "smooth" });
 });
 
 btnFooter.addEventListener("click", function () {

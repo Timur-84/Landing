@@ -1,0 +1,228 @@
+.header {
+  /* height: 97px; */
+  background: linear-gradient(
+      180deg,
+      rgba(208, 237, 227, 0.015) 0%,
+      rgba(156, 36, 108, 0.025) 30.73%,
+      rgba(195, 70, 170, 0.025) 65.62%,
+      rgba(139, 42, 236, 0.015) 100%
+    ),
+    #10010b;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 5px 20px #150511, inset 0px -10px 20px rgba(175, 45, 139, 0.1),
+    inset 0px 10px 20px rgba(175, 45, 139, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 20px;
+  align-items: center;
+}
+
+.body {
+  background: linear-gradient(
+      180deg,
+      rgba(208, 237, 227, 0.015) 0%,
+      rgba(156, 36, 108, 0.025) 30.73%,
+      rgba(195, 70, 170, 0.025) 65.62%,
+      rgba(139, 42, 236, 0.015) 100%
+    ),
+    #10010b;
+  backdrop-filter: blur(10px);
+}
+
+.hedaer__left {
+  display: flex;
+  align-items: center;
+}
+.hedaer__left_logo {
+  margin-right: 20px;
+}
+.header__left__input-div {
+  display: flex;
+  border: 1px solid #4c2755;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.header__left__input-div > img {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.header__left__input-div > label {
+  margin-right: 7px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right_blocks {
+  background: linear-gradient(
+    89.28deg,
+    #fcfcfc 2.05%,
+    rgba(221, 182, 223, 0.7) 48.99%,
+    rgba(252, 204, 235, 0.7) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Manrope";
+  font-style: normal;
+}
+
+.header__right_text {
+  color: gray;
+  margin-right: 20px;
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+.header__right_text:hover {
+  position: relative;
+  top: -2px;
+  border-bottom: 2px solid #804091;
+}
+
+.header__right__blocks_btn {
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: linear-gradient(
+    89.28deg,
+    #6a6ee2 2.05%,
+    rgba(169, 33, 177, 0.7) 67.33%,
+    rgba(222, 10, 150, 0.7) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  cursor: pointer;
+}
+
+input {
+  background: linear-gradient(
+      180deg,
+      rgba(208, 237, 227, 0.015) 0%,
+      rgba(156, 36, 108, 0.025) 30.73%,
+      rgba(195, 70, 170, 0.025) 65.62%,
+      rgba(139, 42, 236, 0.015) 100%
+    ),
+    #10010b;
+  border: none;
+  color: #fff;
+}
+
+.section_img {
+  background: linear-gradient(
+      180deg,
+      rgba(208, 237, 227, 0.015) 0%,
+      rgba(156, 36, 108, 0.025) 30.73%,
+      rgba(195, 70, 170, 0.025) 65.62%,
+      rgba(139, 42, 236, 0.015) 100%
+    ),
+    #10010b;
+  backdrop-filter: blur(10px);
+  height: 834px;
+  position: relative;
+}
+
+.fire {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 530px;
+  left: 395px;
+}
+
+.fire:hover {
+  cursor: pointer;
+}
+
+.section_img > img {
+  width: 1620px;
+  margin: 0 auto;
+}
+
+.footer {
+  color: gray;
+  padding: 40px;
+  background: linear-gradient(
+      180deg,
+      rgba(208, 237, 227, 0.015) 0%,
+      rgba(156, 36, 108, 0.025) 30.73%,
+      rgba(195, 70, 170, 0.025) 65.62%,
+      rgba(139, 42, 236, 0.015) 100%
+    ),
+    #10010b;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+}
+.footer__block > h2 {
+  margin-bottom: 25px;
+}
+.footer__block > p {
+  margin-bottom: 6px;
+}
+.footer__block-img {
+  width: 321px;
+  height: 77px;
+  margin-bottom: 20px;
+}
+.footer__block_container {
+  align-items: center;
+  display: flex;
+}
+.footer__block_container_img {
+  margin-right: 20px;
+}
+.footer__block_container_content > p {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.footer1__block {
+  width: 167px;
+  height: 258px;
+}
+
+.footer2__block {
+  width: 190px;
+  height: 280px;
+}
+
+.footer3__block {
+  width: 273px;
+  height: 302px;
+}
+
+.footer4__block {
+  width: 261px;
+  height: 292px;
+}
+
+[class*="__block"] {
+  background: linear-gradient(
+    89.28deg,
+    #fcfcfc 2.05%,
+    rgba(221, 182, 223, 0.7) 48.99%,
+    rgba(252, 204, 235, 0.7) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Manrope";
+  font-style: normal;
+}

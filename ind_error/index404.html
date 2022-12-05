@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="hedaer__left">
+        <img class="hedaer__left_logo" src="./img/LOGO.svg" alt="" />
+        <div class="header__left__input">
+          <div class="header__left__input-div">
+            <img src="./img/Vector.png" alt="" />
+            <input type="text" />
+          </div>
+          <div class="header__left__input-div">
+            <input list="browsers" name="browser" id="browser" />
+            <datalist id="browsers">
+              <option value="Москва"></option>
+              <option value="Сша"></option>
+              <option value="Ахам-юрт"></option>
+            </datalist>
+          </div>
+        </div>
+      </div>
+      <div class="header__right">
+        <div class="header__right_blocks">
+          <a href="" class="header__right_text">Главная</a>
+        </div>
+        <div class="header__right_blocks">
+          <a href="" class="header__right_text">Профиль</a>
+        </div>
+        <div class="header__right_blocks">
+          <a href="" class="header__right_text">Мои сообщения </a>
+        </div>
+        <div class="header__right_blocks">
+          <a href="" class="header__right_text">Избранное</a>
+        </div>
+        <div class="header__right_blocks">
+          <button class="header__right__blocks_btn">Войти</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section_img">
+      <img src="img/fraim_404.png" alt="" />
+      <div class="fire">
+        <a href="#index.html"></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__block footer__block_left">
+        <img class="footer__block-img" src="./img/YAM_room.png" alt="" />
+        <div class="footer__block_container">
+          <img
+            class="footer__block_container_img"
+            src="./img/LOGO2.svg"
+            alt=""
+          />
+          <div class="footer__block_container_content">
+            <p>Войти</p>
+            <p>Зарегестрироваться</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer1__block">
+        <h2>Категории</h2>
+        <p>Клубы и бары</p>
+        <p>Рестораны и кафе</p>
+        <p>Кинотеатры</p>
+        <p>Экскурсии</p>
+        <p>Музеи и театры</p>
+        <p>Фестивали и парки</p>
+      </div>
+      <div class="footer2__block">
+        <h2>О нас</h2>
+        <p>О проекте</p>
+        <p>Политика конфеденциальности</p>
+        <p>Размещение рекламы</p>
+        <p>Отзывы</p>
+        <p>Возможности</p>
+        <p>На главную</p>
+      </div>
+      <div class="footer3__block">
+        <h2>Служба поддержки</h2>
+        <p>Проблемы со входом</p>
+        <p>Не получается создать комнату и/или присоедениться к готовой</p>
+        <p>Не удается отредактировать данные профиля</p>
+        <p>Забыл(а) пароль</p>
+        <p>Случайно удалил(а) профиль</p>
+        <p>Напишите нам</p>
+      </div>
+      <div class="footer4__block">
+        <h2>Частые вопросы</h2>
+        <p>С чего начать?</p>
+        <p>Как организовать встречу?</p>
+        <p>Что такое рейтинг и как им управлять?</p>
+        <p>Что делать если я пердумал(а) идти?</p>
+        <p>Музеи и театры</p>
+        <p>Как оплачивать и бронировать места?</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      const btnFire = document.querySelector(".fire");
+      btnFire.addEventListener("click", function () {
+        window.location.href = "../index.html";
+      });
+    </script>
+  </body>
+</html>
